@@ -43,9 +43,9 @@ function busqueda() {
     }
 
     if ($('#categoria').val() != "Category") {
-        filtro = "&category=" + $('#categoria').val()
+        categoria = "&category=" + $('#categoria').val()
     } else {
-        filtro = ""
+        categoria = ""
     }
     consultarapi()
 }
